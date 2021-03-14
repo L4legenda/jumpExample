@@ -25,7 +25,7 @@ while game:
     if keys[pygame.K_SPACE]:
         if not isJumpUp and not isJumpDown:
             startY = playery
-        isJumpUp = True
+            isJumpUp = True
 
     if isJumpUp:
         playery -= 2
